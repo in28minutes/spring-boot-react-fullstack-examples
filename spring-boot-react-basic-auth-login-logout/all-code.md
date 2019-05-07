@@ -569,20 +569,10 @@ class LoginComponent extends Component {
         //     this.setState({hasLoginFailed:true})
         // }
 
-        // AuthenticationService
-        //     .executeBasicAuthenticationService(this.state.username, this.state.password)
-        //     .then(() => {
-        //         AuthenticationService.registerSuccessfulLogin(this.state.username, this.state.password)
-        //         this.props.history.push(`/courses`)
-        //     }).catch(() => {
-        //         this.setState({ showSuccessMessage: false })
-        //         this.setState({ hasLoginFailed: true })
-        //     })
-
-        AuthenticationService
-            .executeJwtAuthenticationService(this.state.username, this.state.password)
-            .then((response) => {
-                AuthenticationService.registerSuccessfulLoginForJwt(this.state.username, response.data.token)
+       AuthenticationService
+            .executeBasicAuthenticationService(this.state.username, this.state.password)
+            .then(() => {
+                AuthenticationService.registerSuccessfulLogin(this.state.username, this.state.password)
                 this.props.history.push(`/courses`)
             }).catch(() => {
                 this.setState({ showSuccessMessage: false })
@@ -617,12 +607,13 @@ export default LoginComponent
 
 ```
 import React, { Component } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, withRouter } from 'react-router-dom'
 import AuthenticationService from '../service/AuthenticationService';
 
 class MenuComponent extends Component {
 
     render() {
+        const isUserLoggedIn = AuthenticationService.isUserLoggedIn();
 
         return (
             <header>
@@ -632,8 +623,8 @@ class MenuComponent extends Component {
                         <li><Link className="nav-link" to="/courses">Courses</Link></li>
                     </ul>
                     <ul className="navbar-nav navbar-collapse justify-content-end">
-                        <li><Link className="nav-link" to="/login">Login</Link></li>
-                        <li><Link className="nav-link" to="/logout" onClick={AuthenticationService.logout}>Logout</Link></li>
+                        {!isUserLoggedIn && <li><Link className="nav-link" to="/login">Login</Link></li>}
+                        {isUserLoggedIn && <li><Link className="nav-link" to="/logout" onClick={AuthenticationService.logout}>Logout</Link></li>}
                     </ul>
                 </nav>
             </header>
@@ -641,7 +632,7 @@ class MenuComponent extends Component {
     }
 }
 
-export default MenuComponent
+export default withRouter(MenuComponent)
 ```
 ---
 
