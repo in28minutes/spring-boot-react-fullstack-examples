@@ -1,32 +1,34 @@
 # Spring Boot React Full Stack Examples
 All full stack examples with Spring Boot and React for articles on our website http://www.springboottutorial.com
 
-### Our Best Selling Courses
+## Helping You Master Cloud, Full Stack and Microservices 
 
-> in28Minutes is creating amazing solutions for you to learn Spring Boot, Full Stack and the Cloud - Docker, Kubernetes, AWS, React, Angular etc. - [Check out all our courses here](https://github.com/in28minutes/learn)
+> **30** Courses, **5** Learning Paths & **350K** Learners 
 
-[![Image](https://www.springboottutorial.com/images/Course-Go-Full-Stack-With-Spring-Boot-and-React.png "Go Full Stack with Spring Boot and React")](https://www.udemy.com/course/full-stack-application-with-spring-boot-and-react/?couponCode=NOVEMBER-2019)
+You do not learn to drive by watching Tom Cruise drive at 300 kmph! You have to **get your hands dirty**.
 
-[![Image](https://www.springboottutorial.com/images/Course-Go-Full-Stack-With-SpringBoot-And-Angular.png "Go Full Stack with Spring Boot and Angular")](https://www.udemy.com/course/full-stack-application-development-with-spring-boot-and-angular/?couponCode=NOVEMBER-2019)
+At in28minutes, **Our goal** is to help you learn and re-skill Spring Boot, Microservices, Full Stack, Cloud (AWS), Docker and Kubernetes with **hands-on, practical courses**.
 
-[![Image](https://www.springboottutorial.com/images/Course-Master-Microservices-with-Spring-Boot-and-Spring-Cloud.png "Master Microservices with Spring Boot and Spring Cloud")](https://www.udemy.com/course/microservices-with-spring-boot-and-spring-cloud/?couponCode=NOVEMBER-2019)
+We have build solutions to help you master Cloud, Full Stack and Microservices in **1-3 Months**.
 
-[![Image](https://www.springboottutorial.com/images/Course-Spring-Framework-Master-Class---Beginner-to-Expert.png "Spring Master Class - Beginner to Expert")](https://www.udemy.com/course/spring-tutorial-for-beginners/?couponCode=NOVEMBER-2019)
+You can check out all our courses here - [https://github.com/in28minutes/learn](https://github.com/in28minutes/learn)
 
-[![Image](https://www.springboottutorial.com/images/Course-Master-Java-Web-Services-and-REST-API-with-Spring-Boot.png "Master Java Web Services and REST API with Spring Boot")](https://www.udemy.com/course/spring-web-services-tutorial/?couponCode=NOVEMBER-2019)
+## Learn from the Top 5 Best Selling Courses
 
-[![Image](https://www.springboottutorial.com/images/Course-Spring-Framework-Interview-Guide-200-Questions-Answers.png "Spring Framework Interview Guide - 200+ Questions & Answers")](https://www.udemy.com/course/spring-interview-questions-and-answers/?couponCode=NOVEMBER-2019)
+- [Kubernetes for Java Developers on Google Cloud](https://rebrand.ly/SBT-Footer-Kubernetes)
+- [Docker for Java Developers - with Spring Boot Microservices](https://rebrand.ly/SBT-Footer-Docker)
+- [Learn AWS - Deploy Java Spring Boot to AWS Elastic Beanstalk](https://rebrand.ly/SBT-Footer-AWS-BeanStalk)
+- [Master Microservices with Spring Boot and Spring Cloud](https://rebrand.ly/SBT-Footer-Microservices)
+- [Learn Java Full Stack with Spring Boot and React](https://rebrand.ly/SBT-Footer-React)
 
-[![Image](https://www.springboottutorial.com/images/Course-Learn-Spring-Boot-in-100-Steps---Beginner-to-Expert.png "Learn Spring Boot in 100 Steps - Beginner to Expert")](https://www.udemy.com/course/spring-boot-tutorial-for-beginners/?couponCode=NOVEMBER-2019)
 
-[![Image](https://www.springboottutorial.com/images/Course-Master-Java-Unit-Testing-with-Spring-Boot-Mockito.png "Master Java Unit Testing with Spring Boot & Mockito")](https://www.udemy.com/course/learn-unit-testing-with-spring-boot/?couponCode=NOVEMBER-2019)
+## Reskill with the Amazing in28Minutes Learning Paths
 
-[![Image](https://www.springboottutorial.com/images/Course-Your-First-Steps-From-Programmer-To-Software-Architect.png "Your First Steps from Programmer to Software Architect")](https://www.udemy.com/course/software-architect-course-first-steps/?couponCode=NOVEMBER-2019)
-
-[![Image](https://www.springboottutorial.com/images/Course-Master-Hibernate-and-JPA-with-Spring-Boot-in-100-Steps.png "Master Hibernate and JPA with Spring Boot in 100 Steps")](https://www.udemy.com/course/hibernate-jpa-tutorial-for-beginners-in-100-steps/?couponCode=NOVEMBER-2019)
-
-### More Courses and Videos From in28Minutes
-- https://github.com/in28minutes/learn
+- [Learning Path 01 - Spring and Spring Boot Web Applications and API Developer](https://rebrand.ly/in28minutes-LP-01)
+- [Learning Path 02 - Full Stack Developer with Spring Boot, React & Angular](https://rebrand.ly/in28minutes-LP-02)
+- [Learning Path 03 - Cloud Microservices Developer with Docker and Kubernetes](https://rebrand.ly/in28minutes-LP-03)
+- [Learning Path 04 - Learn Cloud with Spring Boot, AWS, Azure and PCF](https://rebrand.ly/in28minutes-LP-04)
+- [Learning Path 05 - Learn AWS with Microservices, Docker and Kubernetes](https://rebrand.ly/in28minutes-LP-05)
 
 ### Installing Eclipse & Embedded Maven
 - Installation Video : https://www.youtube.com/playlist?list=PLBBog2r6uMCSmMVTW_QmDLyASBvovyAO3
